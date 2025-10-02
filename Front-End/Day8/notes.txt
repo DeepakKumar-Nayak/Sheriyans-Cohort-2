@@ -1,0 +1,14 @@
+HTML : Hyper text markup language. markup language woh language hoti hai jis mein 
+chizen markers ke saath likhe jate hein markets ka matlab hai <>
+
+jab bhi apko kisi instagram pe , whatsapp pe message kiya hoha wahin pe ek preview
+dekhno ko milega apko its all because of HTML. 
+
+aggar ap kuch search kar rahe hoo google pe lets say earbuds aap dekhne apko amazon 
+ka website pehle number pe dekhne ko milega and why is that becuse amazon does have 
+good SEO (search engine optimization)
+
+target = "_blank"
+------------------
+<a target = "_blank" href="https://www.sheryians.com/">Sheriyans Coding School</a>
+aggar apko new tab mein open karna hai toh apko target = "_blank" aisa likhna padega

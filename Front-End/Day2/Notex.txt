@@ -1,0 +1,162 @@
+Client Server Model:
+--------------------
+Client server ko ham Client Server Architecture bhi kehte hein
+jaise ki mein yeah wala class dekh raha hoon shreyans ke website 
+mein (online class ki baat kar raha hoon mein) but uske backend 
+kya kya ho raha hai usko ham bolenge client server model, 
+and jab ham amaxon type karte hai amazon open jata hai , jab ham 
+youtube type karte hai hamara youtube website khul jata hai , uske 
+bare main baat karte hai ki actaul mein backend hota kya hai website 
+type karte hi run kaise ho jata hai so lets Talk about it clearly. 
+
+anything jo user operate karta hai usko client kehte hein like
+mobile, laptop, chrome(software context mein) koi bhi chiz jo 
+user control karta hai and usse ham internat chalate hein usko 
+ham client kehte hein. 
+
+for example smart watch se aggar mein internet chala rahe hei toh smart watch 
+hua apka client. 
+
+Computer system jo programmed ho es tarike se ki anne wala request usse data 
+leke ja sakhe for example ek computer system(mera khudka laptop) so apke laptop 
+mein aap kuch code likhoge aur kuch aisa program likhoge ki koi akke apke laptop se
+internet se kuch aaega aur apka data eke jaega toh esko ham bolte hein server. 
+
+so server matlab duniya mein rakha gaya koi computer jo kuch es tarah programmed
+hai ki koi aaega data leke jaega. 
+
+clinet = user side (browser, mobile, app etc)
+client request bhejta hai. 
+
+server : computer/machine jahan website ka code, database, files stored 
+hoti hai. server ek aisi chiz hai jisko program kiya gaya ho ki woh internet se
+kisi bhi chiz ki request ko accept karke uspe response bhej sakhe
+
+Client/ Server:
+---------------
+Client matklab ek laptop, mobile hai 
+Server matlab ek aisa computer jisko programmed kiya gaya hai jo apki request 
+pe response bhejta hai. 
+
+. Client(browser)
+. runs on your device (laptop, phone)
+. client can only request, cannot directly store full website. 
+. client kabhi kuch bhi store nahi kar sakhta cleint only request bhejega.
+
+Server:
+-------
+Server matlab ek aisa computer machine jisko hamne kuch es tarah program kiya hai ki 
+woh internet se koi bhi bande ki request access karake usko response bhej sakhta hai.
+
+kya hamara laptop yeah kar sakhta hai nahi ... !! Par aggar ham hamare laptop ko 
+program kar ke tab woh ban sakhta hai server. 
+
+HTTP Request Response Cycle:
+-----------------------------
+HTTP: Hyper Text Transfer Protocol.
+HTTP allow karta hai data ko bhejna and data ko mangana
+for example jab aap message send karte ho and jab apko message 
+milta hai whatsapp mein yeah sab kuch ho raha hao HTTP se 
+
+. har browser HTTP Rules follow karta hai. 
+HTTP Request Response Cycle mein 4 steps hai 
+1. Request 
+2. Processing
+3. Response
+4. Render
+
+sabse pehle client kya karta hai request karta hai then server 
+apke request ko read karta hai and jo bhi data apne manga hai usko 
+bhej deta hai
+
+for example mein ChatGPT se request kiya 2+2 kya hota hai so chatGPT 
+ne usko process kiya and response kiya ki 2+2 hota hai 4 
+
+jab bhi ham browser mein youtube.com likhte hain tab browser ek 
+HTTP request bhejta hai server ko(youtube ke server ko) then kya hota 
+hai then wahan pe request accept hoti hai and then processing hoti hai 
+
+processing hoti hai in the sense ki youtube server dekhta hai ki ki tumne 
+request bheji kya hai suppose tumne bheja hai ki mujhe kuch funny video de do 
+toh woh uske databse se leke apko bhej dega 10 funny videos esko kehte hai 
+response pehle processing hua data mil gaya and then bhej diya 
+
+kiske pass bhej diya user ke pass jis mein hota hai HTML CSS Javascript,
+images, photos etc etc 
+
+aab 4th step follow hoha jo hai render eska matlab jo apko response mila hai 
+usko show karna. 
+ 
+Zomato Food Order Example:
+---------------------------
+Ek user Zomato se kuch mangwata hai(request) and then apka order
+chef tak jata hai woh receive karta hai apka order prepare(processing)
+karta hai then ek banda apke ghar tak usko leke atta hai (response)
+and then tum box khol ke khana khate ho (render)
+
+Notes :
+-------
+Cache: jab aap ek website apne mobile mein  open karte ho tab apko late hota hoga 
+then dusro bar jab aap ussi website ko apne mobile mein open karoge toh woh late 
+nahi hoga kyun ki because data cache ho gaya tha, and cache matlab mobile 
+mein data loccally save hona and es process ko ham bolte hai caching
+
+----
+
+Youtube Video Example:
+----------------------
+Jab tum ek youtube video pe click karte ho tak ek click event listener  trigger 
+hota hai javascript ke through then ek request generate hoti hai ek HTTP request
+browser request bhejta hai (http request) youtube ke servers ko and 
+
+Youtube Server Processing ka kam start karta hai jaise ki pehle check karta hai 
+ki request kis chiz ka ayya hai dekhega ki video ki request ayya hai accha woh 
+video exist karta ha ya nahi youtube ke servers pe and yeah bhi check karega ki 
+video dekhne ki eligible ho ya nahi (age restriction and all check hota hai) toh 
+aisa hota hai processing youtube server aise karta hai processing 
+
+uske baad browser render karega prpcess karne ke bass apko response bhejega
+and us mein woh bhejega HTML, CSS, JAVASCRIPT VIDEO, IMAGES etc etc. 
+
+toh aise kam hota hai. 
+
+What Happens When You Visit a Website.?
+----------------------------------------
+so when we type wwww.youtube.com tab browser check cache pehle dekh lega ki 
+kya pehle se cache mein present hai ya nahi (CACHE kya hai meine uper define 
+kiya hai bahut acche se )
+
+aggar hai toh cache se data leke load kar dega aggar nahi hai toh DNS se 
+ek IP address milta hai and broswer send HTTP Request  and then response back 
+to the browser 
+
+URL => CACHE => DNS => REQUEST TO SERVER => SERVER PRPCESSING => HTTP response =>
+browser render page.
+
+Web Hosting and how it works:
+-----------------------------
+jab aap apne website bana dete ho and aab aap yeah chahte ho ki apki 
+website ko duniya access kar paye and uske liye hame hamara website ko 
+kahin na kahin upload kaana padega so that koi bhi us website ko access 
+kar paye for example Netlify yeah ek aisa website hai jahan ham apne 
+website ko yahan host kar sakhte hai 
+
+
+
+
+Static vs Dynamic:
+------------------
+Static Website matlab koi bhi website jika data constant hai matlab no changes 
+nothing wikipedia ek static website hai jo sirf basic html and css se bana hua
+ho. 
+
+Dynamic Website:  Jiska Data badal sakhta hai woh hai Dynamic Website for 
+example Youtube ek dynamix website har bari allag allag data dikhega jab aap 
+website open karoge.
+
+kabhi bhi aap notice karna jab bhi aap youtube khologe apko allag allag data milega 
+and woh har user ke liye hota hai i mean aisa hi kam karta hai but aaap wikipedia 
+jab open karoge toh har waqt uska data constant hoga kabhi bhi aisa changes nahi 
+hote honge like Youtube. 
+
+ 
