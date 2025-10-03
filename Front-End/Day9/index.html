@@ -24,9 +24,97 @@
     <h1 class = "heading">HTML CLass Day Two</h1>
     <div class="html-container">
         <div class="container-1">
+            <h1>Image Tag</h1>
+            <img src="https://images.unsplash.com/photo-1509343256512-d77a5cb3791b?q=60&w=400&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="unsplash-image ">
+            <p>---------------------------------</p>
+
+            <h1>Video Tag</h1>
+            <video autoplay loop muted width="400" src="./5091624-hd_1920_1080_24fps.mp4"></video>
+
+            <p>-----------------------------------</p>
+
+            <h1>Audio Tag</h1>
+            <audio controls autoplay muted loop src="Title Track Saiyaara 320 Kbps.mp3"></audio>
+            <p>-----------------------------------------</p>
+
+            <h1>Details Tag</h1>
+            <details>
+                <summary>Players Name</summary>
+                <ul>
+                    <li>Yashasvi Jaiswal</li>
+                    <li>Kl Rahul</li>
+                    <li>Sai Sudarshan</li>
+                    <li>Subhman Gill</li>
+                    <li>Dhruv Jurel</li>
+                    <li>Ravindra Jadeja</li>
+                </ul>
+            </details>
+
+            <label for="country">Country</label>
+            <select name="country" id="country">
+                <option value="">Select</option>
+                <option value="in">India</option>
+            </select>
         </div>
+        
 
         <div class="container-2">
+            <h1>Form</h1>
+            <form>
+            Name: <input type="text"><br>
+            Password: <input type="password"><br>
+            Date: <input type="date"><br><br>
+
+            <h3>Placeholder</h3>
+            <p>-----------------</p>
+            Name: <input type="text" placeholder="enter your name"><br>
+            Password: <input type="password" placeholder="enter your password"><br>
+            Email: <input type="email" placeholder="enter your email"><br>
+            DateTime: <input type="datetime-local"><br><br>
+
+            <h3>CheckBox</h3
+            <p>------------</p>
+            <input type="checkbox">
+            <h4>Working With Checkbox</h4>
+            <input type="checkbox" name="hobbie"> Cricket
+            <input type="checkbox" name="hobbie"> Singing
+            <input type="checkbox" name="hobbie"> Playing
+            <br><br>
+
+
+            <h3>Radio Button</h3>
+            <p>-----------------</p>
+            <input type="radio">
+            <h4>Working with Radio Button</h4>
+            <input name= "gender" type="radio"> Male
+            <input name= "gender" type="radio"> Female
+            <input name= "gender" type="radio"> Other
+            <br><br>
+
+            <h3>Color</h3>
+            <p>-----------</p>
+            <input type="color"><br><br>
+
+            <h3>Week</h3>
+            <p>-----------</p>
+            <input type="week"><br><br>
+
+            <h3>Month</h3>
+            <p>----------</p>
+            <input type="month"><br><br>
+
+            <h3>Required</h3>
+            <h6>Required Means You cannot keep it blank before submitting you have to fill it otherwise apka form submit nahi hoga</h6>
+
+            <input type="text" required placeholder="write your name">
+
+
+            <h3>Submit Button</h3>
+            <button>Submit</button>
+
+
+
+            </form>
         </div>
     </div>
 </body>

@@ -12,3 +12,4 @@ target = "_blank"
 ------------------
 <a target = "_blank" href="https://www.sheryians.com/">Sheriyans Coding School</a>
 aggar apko new tab mein open karna hai toh apko target = "_blank" aisa likhna padega.
+

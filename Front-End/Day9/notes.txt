@@ -1,0 +1,14 @@
+image tag mein src and alt yeah dono attribute hai aur inka kam hai information 
+rakhna. image tag aap dekhna ki open hota hai par close nahi hota jaise ki aur ek 
+tag hai br tag, 
+
+image tag mein src bolta hai ki image kahan se ayyi hui hai , image kahan se belong
+karti hai. 
+
+image controls:
+----------------
+autoplay : video apne aap chalne ke liye but uske saath hame use karna padega loop 
+so that woh loop mein chalta rahe , we also use something like muted eska matlab 
+video mute rahega. 
+
+<video src="" autoplay loop muted >
